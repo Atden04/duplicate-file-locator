@@ -100,11 +100,11 @@ $(function(){initNavTree('index.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__r_e_a_d_m_e"></a></p>
-<p>The Purpose of this project is to help find duplicate images within your directories. Thsi is done recursively through your directories.</p>
+<p>The Purpose of this project is to help find duplicate images within your directories. This is done recursively through your directories.</p>
 <p>The algorithm gets a list of all the file paths for your images, gets the bitmap data then hashes it. These hashes are then compared to each other. Each time you hash a new file, it is checked to see if it's contained within the known hashes array. If it is found then you have a duplicated hash. If not, it's added to the known hashes array.</p>
 <p>At the end you'll have an array of hashes with no duplicates and a structured array of file paths to duplicate files.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md0"></a>
-Project Strucutre</h1>
+Project Structure</h1>
 <ul>
 <li><b>DuplicateFileLocatorConsole:</b> This is the command line interface for the application.</li>
 <li><b>DuplicateFileLocatorLibrary:</b> Contains the class structures and algorithms for locating the duplicate files.</li>

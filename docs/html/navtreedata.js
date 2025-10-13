@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Duplicate File Locator", "index.html", [
-    [ "Project Strucutre", "index.html#autotoc_md0", null ],
+    [ "Project Structure", "index.html#autotoc_md0", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
