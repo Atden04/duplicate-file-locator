@@ -2005,7 +2005,7 @@ dl.invariant dt, dl.pre dt, dl.post dt {
 #projectalign
 {
 	vertical-align: middle;
-	padding-left: 0.5em;
+	padding-left: 0.1em;
 }
 
 #projectname
@@ -2457,5 +2457,35 @@ details[open]>summary::before {
 }
 ::-webkit-scrollbar-corner {
         background-color: var(--scrollbar-background-color);
+}
+
+/* Align custom nav bar with project title */
+#customNavBar {
+  margin-top: 6px;        /* small gap below the title */
+  margin-left: 0.4em;     /* aligns with the project title */
+}
+
+#customNavBar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;            /* space between links */
+}
+
+#customNavBar li {
+  margin: 0;
+  padding: 0;
+}
+
+#customNavBar a {
+  text-decoration: none;
+  color: #aaccff;         /* matches Doxygen dark theme accent */
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+#customNavBar a:hover {
+  color: #ffffff;
 }
 
